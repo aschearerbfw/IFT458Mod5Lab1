@@ -1,0 +1,17 @@
+###
+GET  http://localhost:4000/api/v1/books
+
+###
+GET  http://localhost:4000/api/v1/books/1
+
+###
+POST http://localhost:4000/api/v1/books
+
+Content-Type: application/json
+
+{
+    "title" : "Harry Potter and the Sorcerer's Stone",
+    "author" : "J.K. Rowling",
+    "genre" : "Fantasy",
+    "year" : 1997
+}
